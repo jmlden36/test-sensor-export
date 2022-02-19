@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "dea17c2c-56de-409a-912a-4caaf07498a0",
+    "appType": "app",
+    "appDisplayName": "test sensor",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_location",
+      "access_exercise"
+    ],
+    "buildTargets": [
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "test sensor"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
